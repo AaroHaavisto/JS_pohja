@@ -1,0 +1,39 @@
+a:hover {
+  color: yellow;
+}
+a:link {
+  color: rgb(255, 0, 0);
+}
+a:visited {
+  color: purple;
+}
+p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+p::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
+
+p,
+tr,
+ul {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+  list-style-type: square;
+}
+
+tr:nth-child(even) {
+  background-color: #adadad;
+}
+
+img {
+  display: block;
+  margin-top: 10px;
+  height: auto;
+  border-radius: 20px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+}
